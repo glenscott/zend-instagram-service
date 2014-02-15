@@ -6,7 +6,7 @@ class InstagramTest extends PHPUnit_Framework_TestCase
 
 	protected function setUp()
 	{
-		$clientId = '6532a3cf1c1b46419bf295f0a7cf8e32';
+		$clientId = '123';
 
 		$this->instagram = new Custom_Service_Instagram($clientId);
 	}
